@@ -29,11 +29,6 @@ class Todo
   end
 end
 
-todo1 = Todo.new('Buy milk')
-todo2 = Todo.new('Clean room')
-todo3 = Todo.new('Go to gym')
-
-
 # Can iterate and select, etc over the todo list
 
 class TodoList
@@ -152,14 +147,7 @@ end
 todo1 = Todo.new('Buy milk')
 todo2 = Todo.new('Clean room')
 todo3 = Todo.new('Go to gym')
-
 chores = TodoList.new('Chores')
 chores << todo1 << todo2 << todo3
-
-puts chores
-chores.mark_done('Buy milk')
-puts chores
-chores.mark_all_undone
-puts chores
 
 
