@@ -1,0 +1,19 @@
+* Procs are a class.
+* They are a way to save a block.
+* Lenient arity rules, they don't care how many arguments they
+* receive vs. how many they expected. If they get too many, they just use them until they're out of things to assign them to. If they get too few, they just assign the remaining arguments to nil.
+
+* Lambdas are a subtype of Proc and can be used similarly.
+* They can use standard block format
+*   Or this -> (thing) { puts "This is a #{thing}." }
+    other format that I don't totally understand.
+* Lamdas have strict arity rules, will return an ArgumentError if either too many or too few are given.
+
+* Methods using blocks (via yield)
+* If we pass too few arguments to a black, the remaining ones are assigned a nil value.
+* Blocks will throw an error if a variable is referenced that doesn't exist in the block's scope.
+
+
+
+* Lambdas are types of Proc's. Both are Proc objects, though. An implicit block is a grouping of code, a type of closure, it is not an Object.
+* Lambdas enforce the number of arguments passed to them. Implicit blocks and Proc's do not enforce the number of arguments passed in
