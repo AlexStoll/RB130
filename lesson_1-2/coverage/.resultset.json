@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "/Users/alexstoll/Learn/RB130/to_do_list.rb": [
+      "/Users/alexstoll/Learn/RB130/lesson_1-2/to_do_list.rb": [
         null,
         null,
         1,
@@ -157,6 +157,6 @@
         null
       ]
     },
-    "timestamp": 1560919191
+    "timestamp": 1562780930
   }
 }

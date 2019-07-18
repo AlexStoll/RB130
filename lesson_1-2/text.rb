@@ -17,4 +17,7 @@ class Text
 end
 
 script = Text.new(File.read('sample_text.txt'))
-puts script.word_count
+
+puts [].class
+
+
